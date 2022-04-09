@@ -1,0 +1,25 @@
+.catalog {
+  flex: 12 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__header {
+  font-size: var(--font-size-big);
+  padding: 0 0 var(--indent-basic) 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.catalog__list {
+  flex: 1 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.catalog__item {
+  margin: 0;
+  margin-bottom: var(--indent-basic);
+}

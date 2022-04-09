@@ -1,0 +1,23 @@
+.page {
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  /* min-width: 1000px; */
+  min-height: 100vh;
+}
+
+.page__content-wrapper {
+  flex: 1 0 auto;
+  display: flex;
+  padding: var(--indent-basic) var(--indent-basic) 0 var(--indent-basic);
+}
+
+.page__content {
+  flex: 1 0;
+  display: flex;
+  flex-direction: row;
+  max-width: var(--main-max-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}

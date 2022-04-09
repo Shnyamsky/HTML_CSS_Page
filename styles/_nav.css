@@ -1,0 +1,38 @@
+.nav {
+  background-color: var(--primary-color);
+  padding: 0 var(--indent-basic);
+}
+
+.nav__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__logo {
+  display: block;
+  color: var(--bg-color);
+  width: var(--column-width);
+  margin-right: var(--indent-basic);
+  font-size: var(--font-size-main);
+  font-weight: normal;
+}
+
+.nav__menus {
+  display: flex;
+  flex: 1 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__link {
+  display: block;
+  padding: var(--indent-basic) var(--indent-basic);
+  color: var(--font-primary-color);
+  text-decoration: none;
+}
+
+.nav__link-checked {
+  background-color: var(--bg-color);
+}

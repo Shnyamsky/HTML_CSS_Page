@@ -1,0 +1,25 @@
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --line-height: 1.25;
+
+  --font-size-main: 16px;
+  --font-size-big: 1.25rem;
+
+  --font-primary-color: #96a1ab;
+  --primary-color: #282e3a;
+  --bg-color: #ececec;
+  --card-color: #3d4957;
+  --font-secondary-color: #dbc7a6;
+
+  --main-max-width: 1128px;
+  --column-width: 188px;
+
+  --indent-basic: 1rem;
+  --indent-big: 1.5rem;
+  --indent-small: 0.5rem;
+
+  --radius-base: 0.5rem;
+  --radius-small: 0.25rem;
+
+  --avatar-size: 2.25rem;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мини-почта</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <!-- Место решения -->
+    <div class="page">
+      <nav class="nav">
+        <div class="nav__inner container">
+          <h1 class="nav__logo">Мини-почта</h1>
+          <div class="nav__menus">
+            <ul class="nav__inner unstyled-list">
+              <li><a class="nav__link nav__link-checked" href="#">Письма</a></li>
+              <li><a class="nav__link" href="#">Написать</a></li>
+            </ul>
+            <ul class="nav__inner unstyled-list">
+              <li><a class="nav__link" href="#">@username</a></li>
+              <li><a class="nav__link" href="#">Выход</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page__content-wrapper">
+        <div class="page__content">
+          <nav class="categories">
+            <h2 class="categories__header">Письма</h2>
+            <ul class="categories__list unstyled-list">
+              <li class="categories__item">
+                <a class="categories__link" href="#">Непрочитанные</a>
+              </li>
+              <li class="categories__item">
+                <a class="categories__link categories__link-checked" href="#">Входящие</a>
+              </li>
+              <li class="categories__item">
+                <a class="categories__link" href="#">Отправленные</a>
+              </li>
+            </ul>
+          </nav>
+          <main class="catalog">
+            <h2 class="catalog__header">Входящие</h2>
+            <ul class="catalog__list unstyled-list">
+              <li class="catalog__item">
+                <article class="card">
+                  <div class="card__header">
+                    <img class="card__image" src="./images/avatar-1.png" alt="" />
+                    <h3 class="card__name">Barsik2007</h3>
+                    <time datetime="2021-08-28" class="card__date">28.08.2021</time>
+                  </div>
+                  <p class="card__theme">Собрание всех котиков</p>
+                  <p class="card__text">Всем привет! Пересылаю распоряжение об организации всеобщего собрания.</p>
+                </article>
+              </li>
+
+              <li class="catalog__item">
+                <article class="card">
+                  <div class="card__header">
+                    <img class="card__image" src="./images/avatar-2.png" alt="" />
+                    <h3 class="card__name">Judith</h3>
+                    <time datetime="2021-08-28" class="card__date">28.08.2021</time>
+                  </div>
+                  <p class="card__theme">Красная точка</p>
+                  <p class="card__text">
+                    Всем мяу! Сегодня утром была найдена красная точка на кухне. Я гналась за ней больше часа, но она
+                    сбежала. Продолжаю наблюдение. В этот раз она не уйдёт. Думаю, надо ещё раз проверить под
+                    холодильником. Всё, я убежала, тут опять бегает солнечное пятно!
+                  </p>
+                </article>
+              </li>
+
+              <li class="catalog__item">
+                <article class="card">
+                  <div class="card__header">
+                    <img class="card__image" src="./images/avatar-3.png" alt="" />
+                    <h3 class="card__name">angry_boss</h3>
+                    <time datetime="2021-08-26" class="card__date">26.08.2021</time>
+                  </div>
+                  <p class="card__theme">Еда?</p>
+                  <p class="card__text">Нам надо что-то делать с нехваткой еды! Я голодаю... Я так больше не могу...</p>
+                </article>
+              </li>
+            </ul>
+          </main>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>(C) Курс Web-программирования | ПГНИУ</p>
+      </footer>
+    </div>
+  </body>
+</html>

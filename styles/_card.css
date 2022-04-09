@@ -1,0 +1,35 @@
+.card {
+  flex: 1 0;
+  background-color: var(--card-color);
+  border-radius: var(--radius-base);
+  padding: var(--indent-basic);
+}
+.card__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: var(--indent-small);
+}
+.card__image {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: var(--indent-small);
+}
+.card__name {
+  margin: 0;
+  font-size: var(--font-size-big);
+  color: var(--font-secondary-color);
+}
+.card__date {
+  margin-left: auto;
+}
+
+.card__theme {
+  margin: 0 0 var(--indent-small) 0;
+  font-size: var(--font-size-big);
+}
+.card__text {
+  margin: 0;
+}
